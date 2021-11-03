@@ -1,0 +1,28 @@
+﻿Build started 12/16/2015 7:18:42 PM.
+     1>Project "F:\L-1,T-2\IGraphics\IGraphics\IGraphics.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\IGraphics.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\IGraphics.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "ken ken.cpp"
+         ken ken.cpp
+     1>f:\l-1,t-2\igraphics\igraphics\igraphics.h(104): warning C4101: 'k' : unreferenced local variable
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(661): error C2601: 'iMouseMove' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(670): error C2601: 'iMouse' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(936): error C2601: 'iKeyboard' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(964): error C2601: 'iSpecialKeyboard' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(972): error C2601: 'ballChange' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(982): error C2601: 'main' : local function definitions are illegal
+                 f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358): this line contains a '{' which has not yet been matched
+     1>f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(999): fatal error C1075: end of file found before the left brace '{' at 'f:\l-1,t-2\igraphics\igraphics\ken ken.cpp(358)' was matched
+     1>Done Building Project "F:\L-1,T-2\IGraphics\IGraphics\IGraphics.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97
